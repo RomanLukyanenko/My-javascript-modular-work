@@ -21,5 +21,5 @@ Is an advanced calculator that not only provides standard arithmetic operations 
 1. javascript
 2. html/css
 * Libraries:
-  Three.js
-  Particles.js
+ 1. Three.js
+ 2. Particles.js
