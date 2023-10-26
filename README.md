@@ -16,3 +16,8 @@ Is a module that displays the current month in a calendar format, showcasing the
 
 # Calculator 
 Is an advanced calculator that not only provides standard arithmetic operations but also functions such as exponentiation, square root calculation, sine, and cosine. This module supports keyboard input and offers a user-friendly interface.
+
+# Tech stack
+. html/css
+. javascript
+
