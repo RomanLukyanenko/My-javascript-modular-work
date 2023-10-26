@@ -8,5 +8,11 @@ The page's design is minimalist, employing dark tones and neon accents, which gi
 
 # Here's a detailed description of each modul: 
 
-# Guess the Tiles -
-is an interactive game designed to enhance memory. The game encourages users to flip tiles and find pairs with matching numbers. Every new game shuffles the tiles, making each round a unique memory challenge.
+# Guess the Tiles
+Is an interactive game designed to enhance memory. The game encourages users to flip tiles and find pairs with matching numbers. Every new game shuffles the tiles, making each round a unique memory challenge.
+
+# Calendar + Weather 
+Is a module that displays the current month in a calendar format, showcasing the weather for each day. The weather data is sourced from the OpenWeatherMap API. Users can view the weather either for their current location or for a city saved in the browser's local storage.
+
+# Calculator 
+Is an advanced calculator that not only provides standard arithmetic operations but also functions such as exponentiation, square root calculation, sine, and cosine. This module supports keyboard input and offers a user-friendly interface.
