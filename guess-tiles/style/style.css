@@ -1,0 +1,109 @@
+/* Basic page styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Grid container structure */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+/* Base tile styles */
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border: 1px solid black;
+    background-color: #ddd;
+    box-sizing: border-box;
+
+    /* Disabling text selection */
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+}
+
+/* Styles for closed tiles */
+.tile.closed {
+    color: transparent;
+    cursor: pointer;
+}
+
+/* Styles for matched tiles */
+.tile.matched {
+    background-color: #aadaa1;
+}
+
+/* Message displayed at the center of the screen */
+#gameMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Tiles that are hidden initially */
+.tile.initially-hidden {
+    visibility: hidden;
+}
+
+/* Styles for the background particles */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none; 
+}
+
+/* Base button styles */
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 52px;
+    border-radius: 8px;
+    background: black;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    z-index: 1010; 
+}
+
+/* Positioning the "Restart Game" button */
+.restart-game {
+    bottom: 45%;
+}
+
+/* Positioning all other buttons */
+.button:not(.restart-game) {
+    bottom: 25%;
+}
