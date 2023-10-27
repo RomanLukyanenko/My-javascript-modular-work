@@ -20,7 +20,7 @@ Is a module that displays the current month in a calendar format, showcasing the
 * If the user's location information is stored in localStorage, that location is used.
 * In the absence of user location data, the system attempts to get the user's geolocation and fetches the weather for that location based on it.
 
-2.Calendar Display: 
+2. Calendar Display: 
 * The calendar displays the current month, with dates arranged according to the days of the week.
 * The current date is highlighted.
 
