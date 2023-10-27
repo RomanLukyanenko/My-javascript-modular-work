@@ -13,6 +13,7 @@ Is an interactive game designed to enhance memory. The game encourages users to 
 
 # Calendar + Weather 
 Is a module that displays the current month in a calendar format, showcasing the weather for each day. The weather data is sourced from the OpenWeatherMap API. Users can view the weather either for their current location or for a city saved in the browser's local storage.
+
 1. Weather Data Retrieval:
 * The system retrieves data for the current month and year.
 * By default, the weather is displayed for the city of Kyiv, Ukraine.
