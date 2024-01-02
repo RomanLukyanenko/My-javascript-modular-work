@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-
 </head>
 <body>
     
-    <input id="result" type="text" readonly>
+    <input id="result-input" type="text" readonly>
     
-    <div class="buttons">
+    <div class="buttons-container">
         <button onclick="append('1')">1</button>
         <button onclick="append('2')">2</button>
         <button onclick="append('3')">3</button>
@@ -25,7 +24,7 @@
         <button onclick="append('9')">9</button>
         <button onclick="append('-')">-</button>
         <button onclick="append('0')">0</button>
-        <button onclick="clearInput()">C</button>
+        <button onclick="clear-input()">C</button>
         <button onclick="calculate()">=</button>
         <button onclick="append('+')">+</button>
         <button onclick="append('^')">^</button>
@@ -35,8 +34,10 @@
         <button onclick="appendMathFunction('tan')">tan</button>
     </div>
 
-    <a href="../index.html" class="button"> Повернутись до вибора </a>
-    
+    <a href="../index.html" class="button-back">Повернутись до вибора</a>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
     <script src="./js/script.js"></script>
 
 </body>
