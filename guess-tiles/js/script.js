@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const gameMessage = document.getElementById('gameMessage');
+    const gameMessage = document.getElementById('game-message');
     const container = document.querySelector('.container');
     const tiles = Array.from(container.children);
     const restartButton = document.querySelector('.restart-game');
     let openedTiles = [];
 
     function shuffle(array) {
-        let currentIndex = array.length, randomIndex, tempValue;
+        let currentIndex = array.length;
         while (currentIndex !== 0) {
-            randomIndex = Math.floor(Math.random() * currentIndex);
+            const randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex--;
 
             [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
@@ -56,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
         resetTiles();
         shuffleTiles();
     }
-
 
     function hideMessage() {
         gameMessage.style.display = 'none';

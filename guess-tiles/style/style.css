@@ -46,7 +46,7 @@ body, html {
 }
 
 /* Message displayed at the center of the screen */
-#gameMessage {
+#game-message {
     position: fixed;
     top: 50%;
     left: 50%;
