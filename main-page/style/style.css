@@ -12,7 +12,7 @@ body {
   overflow: hidden;
 }
 
-P {
+p {
   padding: 0;
   margin: 0;
 }
@@ -40,7 +40,7 @@ P {
 }
 
 /* Three.js Background */
-#threeContainer {
+#three-container {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -74,7 +74,6 @@ P {
   background: #333;
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
   z-index: 1;
   transform: translateY(100px);
@@ -136,14 +135,14 @@ P {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
-  outline : 1px dashed #333;
+  outline: 1px dashed #333;
   padding: 10px;
   margin: 15px 0 0;
   display: inline-block;
 }
 
 .container .card .face.face2 .content a:hover {
-  background: #333 ;
+  background: #333;
   color: whitesmoke; 
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
