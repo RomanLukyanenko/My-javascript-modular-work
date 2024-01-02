@@ -39,3 +39,4 @@ Is an advanced calculator that not only provides standard arithmetic operations 
 * Libraries:
  1. Three.js
  2. Particles.js
+ 3. Math.js
